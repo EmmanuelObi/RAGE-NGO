@@ -1,0 +1,31 @@
+<div class="flex flex-col justify-center items-center min-h-dvh">
+  <video
+    class="min-w-full object-cover -z-10 min-h-dvh fixed right-0 bottom-0"
+    autoplay
+    muted
+    loop
+    id="myVideo"
+    preload="auto"
+  >
+    <source
+      src="https://slum2school.org/wp-content/uploads/2023/08/lv_0_20230825131800.mp4"
+      type="video/mp4"
+    />
+    Your browser does not support HTML5 video.
+  </video>
+  <app-navbar [home]="true"></app-navbar>
+
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-center text-neutral-content">
+    <div class="max-w-md">
+      <h1 class="mb-5 text-5xl font-bold">Become a Catalyst for Change</h1>
+      <p class="mb-5">
+        Whether you're a volunteer, donor, or supporter, your involvement with
+        R.A.G.E. makes a profound impact on the lives of Nigerian children. Join
+        us on our mission to ensure that every child has the opportunity to
+        learn, grow, and thrive.
+      </p>
+      <a href="/causes" class="btn btn-primary mx-2">Get Started</a>
+    </div>
+  </div>
+</div>
