@@ -1,27 +1,33 @@
-# Rmg
+# R.A.G.E. For Kids Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+## Overview
+This project is aimed at designing and developing a website for the Rights and Aid Group for Education (R.A.G.E.), an NGO headquartered in Abuja, Nigeria. The goal of the website is to provide information about R.A.G.E., its mission, programs, and opportunities for involvement.
 
-## Development server
+## Features
+- Homepage: Introduces visitors to R.A.G.E. and its mission.
+- About Page: Provides detailed information about the organization, its history, and goals.
+- Volunteer Signup Page: Allows individuals to sign up for volunteer opportunities with R.A.G.E.
+- Causes Page: Highlights the various causes and initiatives supported by R.A.G.E.
+- Steps to Make a Donation: Guides visitors through the process of making a donation to support R.A.G.E.'s work.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Technologies Used
+- Angular
+- Typescript
+- TailwindCSS/DasyUI (for responsive design)
+- Google Spreadsheets(for volunteer signups and donation steps)
 
-## Code scaffolding
+## Getting Started
+1. Clone the repository:
+```
+  git clone https://github.com/emmanuelobi/RAGE-NGO.git
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. Open the project directory
+3. Install all packages
+```
+  npm install
+```
+4. Run the development server
+```
+  ng serve
+```
